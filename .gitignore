@@ -1,0 +1,5 @@
+models
+__pycache__/
+episodes/*/audio/
+episodes/*/out/
+*.tmp.*

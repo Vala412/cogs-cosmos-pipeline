@@ -1,0 +1,519 @@
+1
+00:00:00,600 --> 00:00:05,037
+Mission log, day 212. Mars, the year 2140.
+
+2
+00:00:05,537 --> 00:00:07,116
+Our rover's map is blank.
+
+3
+00:00:07,516 --> 00:00:12,700
+There's no GPS out here. No satellites
+overhead, quietly announcing the time.
+
+4
+00:00:13,100 --> 00:00:14,749
+So before we drive anywhere,
+
+5
+00:00:14,749 --> 00:00:18,752
+we have to rebuild a trick that every
+phone back on Earth pulls off,
+
+6
+00:00:18,752 --> 00:00:20,460
+every second it's navigating.
+
+7
+00:00:20,760 --> 00:00:23,640
+Here's how that trick works, and
+why it almost didn't.
+
+8
+00:00:28,040 --> 00:00:30,977
+Right now, about 20,000 km
+above your head,
+
+9
+00:00:30,977 --> 00:00:35,827
+a few dozen satellites are doing one
+simple thing: announcing the time.
+
+10
+00:00:36,227 --> 00:00:38,979
+Your phone never answers
+them. It only listens.
+
+11
+00:00:39,279 --> 00:00:42,985
+And from those announcements alone,
+it works out where you're standing,
+
+12
+00:00:42,985 --> 00:00:44,186
+to within a few metres.
+
+13
+00:00:44,686 --> 00:00:49,061
+But if the engineers who built this
+system had ignored Albert Einstein,
+
+14
+00:00:49,061 --> 00:00:53,497
+that blue dot would drift away from you
+by kilometres, every single day.
+
+15
+00:00:53,997 --> 00:00:55,485
+In the next few minutes,
+
+16
+00:00:55,485 --> 00:01:00,134
+you'll see how a handful of clock
+readings from space become that blue dot,
+
+17
+00:01:00,134 --> 00:01:03,234
+and why GPS only works
+because Einstein was right.
+
+18
+00:01:04,234 --> 00:01:06,303
+Let's start with a trick you already know.
+
+19
+00:01:06,603 --> 00:01:10,486
+When you see lightning, you can count
+the seconds until the thunder arrives.
+
+20
+00:01:10,786 --> 00:01:13,352
+Light reaches you almost instantly,
+
+21
+00:01:13,352 --> 00:01:17,165
+but sound crawls along
+at about 340 metres a second.
+
+22
+00:01:17,465 --> 00:01:22,137
+So every three seconds of waiting means the
+storm is roughly a kilometre away.
+
+23
+00:01:22,537 --> 00:01:27,297
+You've just turned time into distance.
+GPS does exactly the same thing,
+
+24
+00:01:27,297 --> 00:01:29,577
+with radio waves instead of sound.
+
+25
+00:01:30,077 --> 00:01:33,587
+There are more than 30
+working GPS satellites,
+
+26
+00:01:33,587 --> 00:01:39,997
+spread across six orbits about 20,200 km up.
+Each one circles the Earth twice a day.
+
+27
+00:01:40,397 --> 00:01:44,756
+And each one constantly broadcasts
+a message that says, in effect:
+
+28
+00:01:44,756 --> 00:01:48,322
+"I am satellite number 12. This
+is exactly where I am.
+
+29
+00:01:48,322 --> 00:01:50,765
+And this is exactly what time it is."
+
+30
+00:01:51,165 --> 00:01:56,776
+Radio waves travel at the speed of light,
+about 300,000 km every second.
+
+31
+00:01:57,076 --> 00:01:59,290
+From a satellite straight overhead,
+
+32
+00:01:59,290 --> 00:02:02,452
+the message takes about
+0.07 seconds to reach you.
+
+33
+00:02:02,752 --> 00:02:07,193
+Your phone compares the time stamped
+in the message with the moment it arrived,
+
+34
+00:02:07,193 --> 00:02:11,072
+multiplies the difference by the speed
+of light, and gets a distance.
+
+35
+00:02:11,472 --> 00:02:15,304
+That's the first big idea. GPS
+doesn't measure where you are.
+
+36
+00:02:15,304 --> 00:02:18,320
+It measures how long
+a signal took to reach you.
+
+37
+00:02:19,320 --> 00:02:21,944
+But one distance on its
+own isn't much use.
+
+38
+00:02:22,244 --> 00:02:26,172
+If a friend tells you they're exactly 5
+km from the railway station,
+
+39
+00:02:26,172 --> 00:02:28,772
+they could be anywhere
+on a circle around it.
+
+40
+00:02:29,172 --> 00:02:31,973
+In space, it's the same idea in 3D.
+
+41
+00:02:31,973 --> 00:02:38,617
+Knowing you're 21,000 km from one satellite
+puts you somewhere on a giant imaginary
+
+42
+00:02:38,617 --> 00:02:39,177
+sphere.
+
+43
+00:02:39,477 --> 00:02:43,680
+A second satellite narrows that down
+to the circle where the two spheres meet.
+
+44
+00:02:43,980 --> 00:02:46,661
+A third cuts that circle to
+just two points,
+
+45
+00:02:46,661 --> 00:02:51,169
+and one of them is usually far out in
+space, so your phone throws it away.
+
+46
+00:02:51,469 --> 00:02:55,501
+Three satellites, one location.
+This is called trilateration.
+
+47
+00:02:56,101 --> 00:02:58,725
+So why does your phone
+actually need at least four?
+
+48
+00:02:59,225 --> 00:03:04,033
+Because the weak link is in your pocket.
+The satellites carry atomic clocks.
+
+49
+00:03:04,033 --> 00:03:08,462
+Your phone has a cheap quartz clock, the
+same kind as in a wristwatch.
+
+50
+00:03:08,862 --> 00:03:13,679
+So your phone treats its own clock
+error as one more unknown. Four unknowns:
+
+51
+00:03:13,679 --> 00:03:17,545
+east–west, north–south, up–down,
+and "how wrong is my clock?"
+
+52
+00:03:17,945 --> 00:03:20,258
+Four unknowns need four measurements.
+
+53
+00:03:20,258 --> 00:03:24,695
+The fourth satellite turns your phone's
+cheap clock into a precise one,
+
+54
+00:03:24,695 --> 00:03:25,945
+borrowed from space.
+
+55
+00:03:26,945 --> 00:03:31,041
+Why does the clock matter so much?
+Because light is ridiculously fast.
+
+56
+00:03:31,341 --> 00:03:36,475
+In one nanosecond, a billionth of a second,
+light travels about 30 centimetres.
+
+57
+00:03:36,475 --> 00:03:38,424
+Roughly the length of a ruler.
+
+58
+00:03:38,824 --> 00:03:42,880
+So a clock that's off by one
+microsecond, a millionth of a second,
+
+59
+00:03:42,880 --> 00:03:47,613
+puts you about 300 metres off. That's
+your front door versus the next street.
+
+60
+00:03:48,013 --> 00:03:51,902
+That's why every GPS satellite
+carries several atomic clocks.
+
+61
+00:03:51,902 --> 00:03:55,408
+They count the vibrations of
+atoms, which never change,
+
+62
+00:03:55,408 --> 00:03:59,042
+and stay accurate to within
+a few billionths of a second.
+
+63
+00:03:59,442 --> 00:04:04,215
+Ground stations check those clocks, track
+every orbit, and upload corrections,
+
+64
+00:04:04,215 --> 00:04:08,743
+so your phone always knows exactly where
+each satellite was when it spoke.
+
+65
+00:04:09,143 --> 00:04:14,394
+Put it all together and a phone can find
+itself to within about 5 metres under open
+
+66
+00:04:14,394 --> 00:04:14,647
+sky.
+
+67
+00:04:14,947 --> 00:04:18,741
+Near tall buildings, signals
+bounce off walls and arrive late.
+
+68
+00:04:18,741 --> 00:04:22,840
+That's why your blue dot sometimes
+jumps across the road in a city.
+
+69
+00:04:23,340 --> 00:04:27,450
+But there's one more problem. And no
+amount of engineering could fix it,
+
+70
+00:04:27,450 --> 00:04:31,788
+because it isn't a problem with the
+clocks. It's a problem with time itself.
+
+71
+00:04:32,988 --> 00:04:34,213
+In 1905 and 1915,
+
+72
+00:04:34,213 --> 00:04:39,687
+Albert Einstein showed that time doesn't
+tick at the same rate for everyone.
+
+73
+00:04:39,987 --> 00:04:45,299
+GPS satellites are caught between two of his
+ideas, pulling in opposite directions.
+
+74
+00:04:45,699 --> 00:04:49,091
+First, special relativity:
+moving clocks run slow.
+
+75
+00:04:49,391 --> 00:04:54,970
+GPS satellites race around the Earth at
+nearly 4 km every second. At that speed,
+
+76
+00:04:54,970 --> 00:05:00,271
+their clocks fall behind clocks on the
+ground by about 7 microseconds a day.
+
+77
+00:05:00,671 --> 00:05:03,652
+Second, general relativity:
+gravity slows time.
+
+78
+00:05:03,652 --> 00:05:07,839
+The deeper you sit in a gravity
+well, the slower your clock ticks.
+
+79
+00:05:08,139 --> 00:05:11,883
+The satellites sit far higher
+in Earth's well than you do,
+
+80
+00:05:11,883 --> 00:05:15,691
+so their clocks run faster, by
+about 45 microseconds a day.
+
+81
+00:05:16,091 --> 00:05:23,024
+Minus 7, plus 45. Every GPS satellite
+clock gains about 38 microseconds a day.
+
+82
+00:05:23,524 --> 00:05:27,912
+That sounds tiny. But one
+microsecond is 300 metres.
+
+83
+00:05:27,912 --> 00:05:33,060
+38 microseconds is more than
+11 km worth of error. Every day.
+
+84
+00:05:33,660 --> 00:05:39,307
+So engineers built Einstein into
+the hardware. Before launch,
+
+85
+00:05:39,307 --> 00:05:44,307
+each satellite's clock is tuned
+to tick slightly slow:
+
+86
+00:05:44,307 --> 00:05:48,380
+10.22999999543 MHz instead
+of exactly 10.23.
+
+87
+00:05:48,780 --> 00:05:52,990
+Once it's in orbit, relativity speeds it
+up to exactly the right rate,
+
+88
+00:05:52,990 --> 00:05:54,433
+as seen from the ground.
+
+89
+00:05:54,933 --> 00:05:57,576
+Not everyone was convinced at first.
+
+90
+00:05:57,576 --> 00:06:02,496
+When the first GPS satellite with a
+caesium clock launched in 1977,
+
+91
+00:06:02,496 --> 00:06:06,901
+its relativity correction was left
+switched off for 20 days.
+
+92
+00:06:07,301 --> 00:06:11,710
+Its clock drifted by just the amount
+Einstein's equations predicted.
+
+93
+00:06:11,710 --> 00:06:13,720
+The correction was switched on,
+
+94
+00:06:13,720 --> 00:06:17,157
+and it has been built into
+every GPS satellite since.
+
+95
+00:06:18,357 --> 00:06:22,922
+So, how does GPS know where you are? It
+doesn't. Your phone works it out.
+
+96
+00:06:23,322 --> 00:06:28,154
+It listens to at least four satellites,
+turns their time stamps into distances,
+
+97
+00:06:28,154 --> 00:06:29,683
+solves for its own clock,
+
+98
+00:06:29,683 --> 00:06:34,393
+and trusts atomic clocks that were set for
+Einstein before they ever left the
+
+99
+00:06:34,393 --> 00:06:34,821
+ground.
+
+100
+00:06:35,321 --> 00:06:40,322
+And most phones don't only listen
+to GPS. They also use Europe's Galileo,
+
+101
+00:06:40,322 --> 00:06:46,009
+Russia's GLONASS, China's BeiDou, and
+many add India's NavIC. Different satellites,
+
+102
+00:06:46,009 --> 00:06:48,270
+same idea: time becomes distance.
+
+103
+00:06:49,270 --> 00:06:51,659
+Mission log, day 213.
+
+104
+00:06:52,059 --> 00:06:56,238
+We've drafted a plan: put a few
+atomic clocks into orbit around Mars,
+
+105
+00:06:56,238 --> 00:07:01,083
+and tune them before launch for Mars's
+gravity and their own speed, not Earth's.
+
+106
+00:07:01,483 --> 00:07:04,662
+If Einstein was right on Earth,
+he'll be right out here too.
+
+107
+00:07:05,862 --> 00:07:09,873
+If this changed the way you see that
+little blue dot, hit the like button.
+
+108
+00:07:10,173 --> 00:07:12,313
+Then subscribe to Cogs & Cosmos,
+
+109
+00:07:12,313 --> 00:07:17,128
+and tap the bell icon so you never
+miss a new explainer. Keep exploring.
+
